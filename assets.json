@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "name": "icon_1024",
+      "type": "icon",
+      "prompt": "App icon, one single glossy 3D joker playing card standing upright with a glowing violet opal gem set in its centre, gold filigree frame, deep purple radial gradient background, centered, crisp, no text"
+    },
+    {
+      "name": "bg_splash",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game splash background, dark opal-purple velvet card table in a dim theater, soft gold rim light from above, deep vignette, cinematic, no text, no UI elements"
+    },
+    {
+      "name": "bg_menu",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game menu background, luxurious purple velvet card table with gold filigree frame and scattered luminous opal gems, warm gold spotlight, rich and vibrant 3D render, no text, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game background, softly blurred dark purple velvet table surface with faint gold ornament, very low contrast for UI overlay, no text, no UI elements"
+    },
+    {
+      "name": "sprite_opal_violet",
+      "type": "sprite",
+      "prompt": "One single glossy 3D round violet opal gem cabochon, iridescent purple fire, thin gold rim, centered icon, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_opal_gold",
+      "type": "sprite",
+      "prompt": "One single glossy 3D round golden opal gem cabochon, warm amber shimmer, thin gold rim, centered icon, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_opal_crimson",
+      "type": "sprite",
+      "prompt": "One single glossy 3D round crimson opal gem cabochon, deep red fire, thin gold rim, centered icon, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_opal_teal",
+      "type": "sprite",
+      "prompt": "One single glossy 3D round teal opal gem cabochon, cool turquoise shimmer, thin gold rim, centered icon, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_opal_pearl",
+      "type": "sprite",
+      "prompt": "One single glossy 3D round pearl white opal gem cabochon, soft rainbow sheen, thin gold rim, centered icon, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_joker_card",
+      "type": "sprite",
+      "prompt": "One single ornate playing card face showing a jester crown emblem, purple and gold filigree border, glossy 3D render, centered, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_seal_gold",
+      "type": "sprite",
+      "prompt": "One single ornate gold wax seal medallion with a jester crown emblem, glossy 3D render, centered icon, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_lock_cage",
+      "type": "sprite",
+      "prompt": "One single ornate golden filigree cage lock, closed bars forming a square, glossy 3D render, centered icon, isolated on plain white, no other objects"
+    }
+  ]
+}

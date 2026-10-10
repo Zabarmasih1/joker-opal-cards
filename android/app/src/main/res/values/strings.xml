@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Joker Opal Cards</string>
+
+    <string name="splash_title">JOKER OPAL\nCARDS</string>
+    <string name="splash_subtitle">A JEWEL TABLE OF WILD CARDS</string>
+    <string name="splash_loading">DEALING THE TABLE</string>
+    <string name="splash_footer">OFFLINE · SINGLE PLAYER</string>
+    <string name="splash_progress_cd">Dealing the table, please wait</string>
+
+    <string name="menu_title">JOKER OPAL CARDS</string>
+    <string name="menu_hint">SWAP OPALS · CHARGE JOKERS · BREAK THE CAGES</string>
+    <string name="menu_chips_label">OPAL CHIPS</string>
+    <string name="cta_play">PLAY</string>
+    <string name="cta_seals">SEALS</string>
+    <string name="cta_settings">SETTINGS</string>
+
+    <string name="label_best_cascade">BEST CASCADE</string>
+    <string name="label_joker_seals">JOKER SEALS</string>
+    <string name="label_score">SCORE</string>
+    <string name="label_cages">CAGES</string>
+    <string name="label_cages_broken">CAGES BROKEN</string>
+    <string name="label_cascade">CASCADE</string>
+    <string name="label_moves">MOVES</string>
+    <string name="label_chapter">CHAPTER</string>
+
+    <string name="game_cta_joker">PLAY JOKER</string>
+    <string name="game_banner_reshuffle">THE TABLE RESHUFFLES</string>
+    <string name="game_banner_dealing">DEALING</string>
+    <string name="game_banner_wild_armed">WILD SWAP ARMED</string>
+    <string name="game_back_cd">Back to the card hall</string>
+
+    <string name="joker_wild_swap">WILD SWAP</string>
+    <string name="joker_row_burn">ROW BURN</string>
+    <string name="joker_cage_key">CAGE KEY</string>
+    <string name="joker_none_ready">no joker charged yet</string>
+
+    <string name="result_title_win">CHAPTER COMPLETE</string>
+    <string name="result_title_loss">OUT OF MOVES</string>
+    <string name="result_subtitle_loss">THE CAGES HELD THIS TIME</string>
+    <string name="cta_play_again">PLAY AGAIN</string>
+    <string name="cta_menu">MENU</string>
+    <string name="result_seal_cd">Gold joker seal earned</string>
+    <string name="result_cage_cd">A locked cage, the chapter was not cleared</string>
+
+    <string name="seals_title">JOKER SEALS</string>
+    <string name="seals_close_cd">Close the seal gallery</string>
+    <string name="seals_empty_title">NO SEALS YET</string>
+    <string name="seals_empty_body">CLEAR A CHAPTER TO WIN YOUR FIRST SEAL</string>
+    <string name="seals_error">COULD NOT READ YOUR SEALS</string>
+    <string name="cta_retry">RETRY</string>
+    <string name="seal_locked">LOCKED</string>
+    <string name="seal_item_cd">Joker seal</string>
+    <string name="seals_empty_cd">A dimmed joker card</string>
+
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_close_cd">Close the settings</string>
+    <string name="settings_sound">SOUND EFFECTS</string>
+    <string name="settings_sound_helper">TABLE CLICKS AND GEM CHIMES</string>
+    <string name="settings_animations">BOARD ANIMATIONS</string>
+    <string name="settings_animations_helper">TURN OFF FOR A CALMER TABLE</string>
+    <string name="settings_contrast">HIGH CONTRAST GEMS</string>
+    <string name="settings_contrast_helper">STRONGER GEM OUTLINES</string>
+    <string name="settings_reset">RESET PROGRESS</string>
+    <string name="settings_reset_title">RESET PROGRESS</string>
+    <string name="settings_reset_body">Every seal, chapter and opal chip you have collected will be cleared.</string>
+    <string name="settings_reset_confirm">RESET</string>
+    <string name="settings_reset_cancel">KEEP PLAYING</string>
+    <string name="settings_footer">VERSION 1.0 · OFFLINE</string>
+
+    <string name="state_on">on</string>
+    <string name="state_off">off</string>
+
+    <string name="cd_menu_card">An ornate joker card resting on the table</string>
+    <string name="cd_menu_opal">A glowing golden opal</string>
+    <string name="cd_chip_icon">Opal chips</string>
+    <string name="cd_joker_face">Joker card</string>
+
+    <string name="fmt_chapter_heading">CHAPTER %1$d</string>
+    <string name="fmt_chapter_line">CHAPTER %1$d · %2$s</string>
+    <string name="fmt_chapters_cleared">%1$d OF %2$d CHAPTERS CLEARED</string>
+    <string name="fmt_chapters_state">%1$d of %2$d chapters cleared</string>
+    <string name="fmt_cascade">%1$d×</string>
+    <string name="fmt_cages">%1$d/%2$d</string>
+    <string name="fmt_seals_count">%1$d / %2$d</string>
+    <string name="fmt_chips_reward">+%1$d OPAL CHIPS</string>
+    <string name="fmt_moves_state">%1$d moves left</string>
+    <string name="fmt_gem_cd">%1$s, row %2$d column %3$d</string>
+    <string name="fmt_gem_caged_cd">%1$s, row %2$d column %3$d, caged</string>
+    <string name="fmt_joker_ready">%1$s ready</string>
+    <string name="fmt_joker_locked">locked, %1$d percent charged</string>
+    <string name="fmt_seal_earned">%1$s seal earned</string>
+    <string name="fmt_seal_locked">%1$s seal not earned yet</string>
+    <string name="fmt_result_subtitle_win">JOKER SEAL EARNED · %1$s</string>
+    <string name="fmt_score">%1$,d</string>
+    <string name="empty_value">·</string>
+</resources>

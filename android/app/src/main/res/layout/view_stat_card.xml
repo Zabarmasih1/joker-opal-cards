@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/layout_stat_icon"
+        android:layout_width="@dimen/icon_chip"
+        android:layout_height="@dimen/icon_chip"
+        android:background="@drawable/icon_chip_bg">
+
+        <ImageView
+            android:id="@+id/image_stat_icon"
+            android:layout_width="@dimen/icon_medium"
+            android:layout_height="@dimen/icon_medium"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_chip" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_stat_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_sm"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/empty_value"
+        android:textAppearance="@style/TextAppearance.App.Numeric" />
+
+    <TextView
+        android:id="@+id/text_stat_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/label_score"
+        android:textAppearance="@style/TextAppearance.App.Label" />
+
+</merge>

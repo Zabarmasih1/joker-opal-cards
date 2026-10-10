@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/seal_dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_surface"
+    android:padding="18dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_seals_close"
+        style="@style/Widget.App.Button.IconOnly"
+        android:layout_width="@dimen/touch_min"
+        android:layout_height="@dimen/touch_min"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/seals_close_cd"
+        app:icon="@drawable/ic_close" />
+
+    <TextView
+        android:id="@+id/text_seals_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dp"
+        android:layout_toStartOf="@id/button_seals_close"
+        android:text="@string/seals_title"
+        android:textAppearance="@style/TextAppearance.App.Title"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_seals_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/text_seals_title"
+        android:layout_marginTop="2dp"
+        android:letterSpacing="0.14"
+        android:textColor="@color/accent_gold"
+        android:textSize="12sp" />
+
+    <FrameLayout
+        android:id="@+id/layout_seals_body"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_below="@id/button_seals_close"
+        android:layout_marginTop="@dimen/space_md">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_seals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:id="@+id/layout_seals_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="132dp"
+                android:alpha="0.5"
+                android:contentDescription="@string/seals_empty_cd"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sprite_joker_card" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_lg"
+                android:letterSpacing="0.14"
+                android:text="@string/seals_empty_title"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="@string/seals_empty_body"
+                android:textColor="@color/text_muted"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_seals_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sprite_lock_cage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_md"
+                android:gravity="center"
+                android:text="@string/seals_error"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_seals_retry"
+                style="@style/Widget.App.Button.Secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_secondary_height"
+                android:layout_marginTop="@dimen/space_md"
+                android:paddingStart="@dimen/space_xl"
+                android:paddingEnd="@dimen/space_xl"
+                android:text="@string/cta_retry" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

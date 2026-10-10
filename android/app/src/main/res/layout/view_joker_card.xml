@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/image_joker_face"
+        android:layout_width="@dimen/joker_face_width"
+        android:layout_height="@dimen/joker_face_height"
+        android:contentDescription="@string/cd_joker_face"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sprite_joker_card" />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progress_joker_charge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_sm"
+        android:layout_marginEnd="@dimen/space_sm"
+        android:layout_marginTop="@dimen/space_xs"
+        android:indeterminate="false"
+        android:max="100"
+        app:indicatorColor="@color/accent_gold"
+        app:trackColor="@color/surface_slot"
+        app:trackCornerRadius="2dp"
+        app:trackThickness="3dp" />
+
+    <TextView
+        android:id="@+id/text_joker_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_xs"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:maxLines="1"
+        android:text="@string/joker_wild_swap"
+        android:textColor="@color/text_secondary"
+        android:textSize="9sp" />
+
+</merge>
